@@ -1,4 +1,5 @@
 # 多特征电能负荷预测 #
+[![Python CI](https://github.com/ls8088865-creator/Multi-feature-power-load-forecasting-based-on-deep-learning/actions/workflows/python-ci.yml/badge.svg)](https://github.com/ls8088865-creator/Multi-feature-power-load-forecasting-based-on-deep-learning/actions)
 电能负荷预测按细粒度划分可分为粗度预测和细度预测。其中粗度预测则是将整个时间段的电能负荷数据进行训练，进而进行预测。而细度预测这是要考虑电能负荷季节，时间周期影响因子。  
 >在进行城市居民电能负荷粗度预测时需要考虑比较如下三种情况的准确率：   
 >>1.	利用上一时刻的电能负荷（power），温度（temperature），湿度（humidity），风速（speed）预测此刻的电能负荷，power_load_forecasting_V1   
